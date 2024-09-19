@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="./css/styles.css">--> 
+     <style>
+     table{
+      width: 100%;
+      border: 1px solid;
+      border-collapse: collapse;
+    }
+    td, th{
+      border: 1px solid;
+      text-align: center;
+    }
+    </style>
+  </head>
+  <body class="content">
+
+        <!-- <задание 1 task1-task5/task7>--> 
+    <div class="block-1">
+      <h1>Что писать в атрибуте alt</h1>
+
+      <p id="text-1"> 27 февраля 2024 &nbsp; HTML &nbsp; Николай Шабалин</p>
+
+      <p id="text-2"><strong>Альтернативный текст</strong> — это описание изображения словами. Это описание должно помогать людям, которые читают или слышат это описание, иначе оно не нужно и лучше вообще его не указывать.</p>
+
+      <p id="text-3">Мы уже обсудили <a href="https://dzen.ru/?yredirect=true&clid=2270456&win=636">основные правила</a> основные правила написания alt-текста для фотографий и изображений. В этот раз поговорим о том, каким именно должно быть описание, чтобы в нём был смысл.</p>
+    </div>
+
+
+    <div class="block-2">
+    <h1>Не пишите в alt названия файлов или имя фотографа</h1>
+
+    <p id="text-4">Я часто смотрю, какое описание заполняют в атрибуте alt, и удивляюсь, насколько фантазия может пойти не туда. Часто заполненный альтернативный текст полностью бесполезен, так как не передаёт смысла изображения.</p>
+    <p id="text-5">Какое описание не подойдёт:</p>
+    <ol>
+    <li style="list-style-type: none;">—  imgX2 или 7e0273c07fef3b598590d3fdddf7808604f0a191435c2c0c — это просто название или хэш файла с картинкой.</li> 
+
+    <li style="list-style-type: none;">—  Название сайта или название статьи — возможно, это проделки для SEO. </li>
+
+    <li style="list-style-type: none;">—  Имя фотографа — тут всё понятно. </li>
+  </ol>
+      <p id="text-6">Все эти варианты никак не помогут в основной задаче альт-текста — понять, что было на картинке, которая не загрузилась, или при чтении страницы скринридером.</p>
+  </div>
+
+
+  <div class="block-3"> 
+
+    <h1>Итого — как написать хороший alt-текст Просто понятное описание — самое хорошее решение, если оно не слишком длинное.</h1>
+
+    <p id="text-7">Отсутствие описания — нормально, но должно быть к месту. Эмоциональное описание — тоже хорошо, если вписано в контекст.</p>
+
+    <p id="text-8">А вот шесть правил коротко:</p>
+
+    <ol>
+      <li>Просто расскажите, что видите на картинке — чем короче, тем лучше. Используйте контекст, в котором находится картинка — то есть учитывайте, что находится вокруг неё на сайте. </li>
+      
+      <li>Не пишите alt, если картинка не несёт отдельного смысла — например, аватарка в профиле.</li> 
+      
+      <li>Не стесняйтесь передавать эмоции через alt — если кто-то радуется или грустит, напишите об этом, если уместно.</li> 
+      
+      <li>Не пишите alt у декоративных изображений — например, у иконок.</li>
+      
+      <li>Не пишите в alt название файла или имя фотографа — alt нужен не для этого.</li>
+    </ol>
+
+    <p>Экспериментируйте, пробуйте и не бойтесь ошибиться.</p>
+  </div>
+
+
+  <div class="block-4">
+    <h1>Передавайте эмоции через alt </h1>
+    
+    <p id="text-9">С первого взгляда не очевидно, что любая аватарка может передавать какие-то там эмоции, но в контексте иногда есть смысл их передать. Например, если бы статья была про бессонницу, то моей аватарке можно было бы написать alt «человек с кучей мыслей прям перед сном». </p>
+
+    <figure>
+      <img src="img/img_task4.png" alt="">
+      <figcaption>Радостный человек лежит в гамаке на закате</figcaption>
+    </figure>
+    
+     <p id="text-10">Эту картинку можно описать «Радостный человек лежит в гамаке на закате». Нужно ли писать здесь, что человек радостный, хотя мы даже не видим его лица? Это не обязательно, но можно так написать, если мы продаём гамаки, хотим дополнить картинку и сказать, насколько хорошо он себя чувствует в нашем удобном гамаке, лёжа в нём на берегу океана.</p>
+  </div>
+
+
+  <div class="block-5">
+    <table>
+      <thead>
+      <tr>
+        <th rowspan="2">№ по порядку</th>
+        <th colspan="2">Персональные данные</th>
+      </tr>
+
+      <tr>
+        <th>ФИО</th>
+        <th>Дата рождения</th>
+      </tr>
+      </thead>
+
+      <tbody>
+
+        <tr>
+          <td>1</td>
+          <td>Иванов Иван Иванович</td>
+          <td>01 января 2000</td>
+        </tr>
+
+        <tr>
+          <td>2 
+            <td>Петров Петр Петрович </td>
+            
+            <td>14 марта 1999</td>
+          </tr>
+            <tr>
+          <td>3</td>
+            <td>Александров Александр Александрович </td>
+            <td>22 июня 2010</td>
+        </tr>
+
+      </tbody>
+
+    </table>
+  </div>
+
+  <div class="block-6">
+    <h2>Чемпионат мира по футболу 2018 в России</h2>
+    
+    <a href="https://ru.wikipedia.org/wiki/%D0%A7%D0%B5%D0%BC%D0%BF%D0%B8%D0%BE%D0%BD%D0%B0%D1%82_%D0%BC%D0%B8%D1%80%D0%B0_%D0%BF%D0%BE_%D1%84%D1%83%D1%82%D0%B1%D0%BE%D0%BB%D1%83_2018" title="Чемпионат мира по футболу 2018 года"><strong>Чемпионат мира по футболу 2018 года</strong></a> — 21-й чемпионат мира (ЧМ) по футболу <a href="https://ru.wikipedia.org/wiki/%D0%A4%D0%98%D0%A4%D0%90">ФИФА</a>, финальная часть которого прошла в России с 14 июня по 15 июля 2018 года. Россия в первый раз в своей истории стала страной-хозяйкой мирового чемпионата по футболу, кроме того, он впервые проводился в Восточной Европе. Также в первый раз мундиаль проходил на территории сразу двух частей света — Европы и Азии. ЧМ-2018 проводился на 12 стадионах в 11 российских городах. Это первый чемпионат мира по футболу, на котором использовалась система видеопомощи арбитрам. </p>
+    
+    <p>Чемпионом во 2-й раз стала <a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%B1%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D0%B8_%D0%BF%D0%BE_%D1%84%D1%83%D1%82%D0%B1%D0%BE%D0%BB%D1%83">сборная Франции</a>, обыгравшая в финале сборную Хорватии (4:2). Бронзовым призёром стала сборная Бельгии, победившая в матче за 3-е место сборную Англии (2:0). Финальный матч был сыгран 15 июля на стадионе «Лужники» в Москве. Чемпионат стал четвёртым подряд, который выиграла европейская сборная. </p>
+    
+    <h3>Выбор места проведения</h3>
+    
+    <p><a href="https://ru.wikipedia.org/wiki/%D0%92%D1%8B%D0%B1%D0%BE%D1%80%D1%8B_%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%82%D0%BE%D1%80%D0%BE%D0%B2_%D1%87%D0%B5%D0%BC%D0%BF%D0%B8%D0%BE%D0%BD%D0%B0%D1%82%D0%BE%D0%B2_%D0%BC%D0%B8%D1%80%D0%B0_%D0%BF%D0%BE_%D1%84%D1%83%D1%82%D0%B1%D0%BE%D0%BB%D1%83_2018_%D0%B8_2022">18 марта 2009 года ФИФА заявила</a>, что на проведение чемпионатов 2018/2022 годов было принято 9 заявок, которые подали: Австралия, Англия, Индонезия, Мексика, Россия, США, Япония, Португалия и Испания (совместная заявка), Бельгия и Нидерланды (совместная заявка). Кроме того, Республика Корея и Катар объявили об участии только в выборах хозяина чемпионата мира 2022 года. </p>
+    
+    Позднее, в соответствии с действующим положением ФИФА о ротации континентов, из гонки за турнир 2018 года выбыли представители Азии, Австралии и Америки. Таким образом, исполком ФИФА выбирал из заявок России, Англии, а также совместных проектов Испании — Португалии и Бельгии — Нидерландов. 
+    
+    Оргкомитет по поддержке выдвижения России в качестве страны — претендента на право проведения чемпионата мира по футболу 2018/2022 годов возглавлял Игорь Шувалов. 
+    
+    <h3>Города и стадионы</h3>
+    
+    <h4>Города</h4>
+    
+    <p>Изначально согласно заявке в список городов для возможного проведения чемпионата мира вошло 14 населённых пунктов. Позднее губернатор Воронежской области Алексей Гордеев обратился к министру спорта России Виталию Мутко и президенту РФС Сергею Фурсенко с просьбой включить Воронеж в список городов-кандидатов, но «поезд уже ушёл». Один из стадионов планировалось построить в Подольске, городе-спутнике Москвы, однако в октябре 2011 года губернатор Московской области Борис Громов заявил, что «область вышла из заявки», отказавшись от строительства нового стадиона ввиду его нерентабельности (при этом идею администрации области о реконструкции/расширении имевшегося в Подольске стадиона организаторы отвергли). </p>
+    
+    <p>Все города-кандидаты были разделены на 3 группы. В первую вошли города, полностью готовые к проведению игр, — это <a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0">Москва</a>, <a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3">Санкт-Петербург</a>, <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C">Казань</a>, <a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D1%87%D0%B8">Сочи</a> и <a href="https://ru.wikipedia.org/wiki/%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3">Екатеринбург</a>. Во вторую — те, что «с большой вероятностью» будут готовы к турниру, — Краснодар и Самара. В третью — те города, у которых «есть проблемы»
+    </p> 
+    
+    <p>В начале сентября 2012 года министр спорта и председатель оргкомитета «Россия-2018» Виталий Мутко назвал 5 кандидатов на лишение права проведения матчей чемпионата мира (предполагалось из пяти городов оставить три в заявке): Саранск, Волгоград, Ярославль, Калининград и Ростов-на-Дону. </p>
+    
+    <p>Список городов, где должны были пройти игры ЧМ-2018, утвердили в сентябре 2012 года. Точнее, 28 сентября был составлен, как казалось, согласованный список городов, принимающих чемпионат (в него не вошли Саранск и Ярославль). Однако, 29 сентября 2012 года в рамках телепередачи «Сегодня вечером с Андреем Малаховым» на Первом канале был озвучен изменённый список, ставший окончательным, — в итоге, матчи ЧМ-2018 не проводятся в Краснодаре и Ярославле. Итоговый перечень городов, принимавших матчи чемпионата мира: </p>
+    <ol>
+      <li style="list-style-type: none;">1. Москва</li>
+      <li style="list-style-type: none;">2. Калининград </li>
+      <li style="list-style-type: none;">3. Санкт-Петербург</li>
+      <li style="list-style-type: none;">4. Нижний Новгород</li>
+      <li style="list-style-type: none;">5. Волгоград</li>
+      <li style="list-style-type: none;">6. Казань</li>
+      <li style="list-style-type: none;">7. Самара</li>
+      <li style="list-style-type: none;">8. Саранск</li>
+      <li style="list-style-type: none;">9. Ростов-на-Дону</li>
+      <li style="list-style-type: none;">10. Сочи</li>
+      <li style="list-style-type: none;">11. Екатеринбург</li>
+    </ol>
+    
+     
+  
+
+  </div>
+        <!-- заданиеДЗ/task-13/-->
+
+       <!--СТРАНИЦА-1-->
+
+       <div style="width: 100%; height: 30px; text-align: right">  
+        <span style="float: left">Острый перец — Википедия</span>  
+        <a href="https://ru.wikipedia.org/wiki/Острый_перец">https://ru.wikipedia.org/wiki/Острый_перец</a>
+    </div>
+
+<title>ВикипедиЯ</title>
+
+<div>
+<h1>Острый перец</h1>
+<hr>
+</div>
+
+<p>Материал из Википедии — свободной энциклопедии</p>
+
+<div style="display: flex; flex-direction: row;">
+    <div style="width: 50%;">
+        <p><strong>Кра́сный о́стрый пе́рец (перец чили) </strong>— свежие
+            или высушенные плоды определённых сортов
+            тропического полукустарника <em><a href="https://ru.wikipedia.org/wiki/Острый_перец">Capsicum annuum</a></em>
+            ( <em>syn. Capsicum frutescens</em>); <a href="https://ru.wikipedia.org/wiki/Острый_перец">пряность</a>, имеющая
+            <a href="https://ru.wikipedia.org/wiki/Острый_перец">жгучий вкус</a>.</p>
+            <p>Название перца чили в русском языке созвучно с
+                названием страны <a href="https://ru.wikipedia.org/wiki/Острый_перец">Чили</a>, однако это слово
+                происходит от <a href="https://ru.wikipedia.org/wiki/Острый_перец">ацтекского</a> <em>«chilli»</em>, что означает
+                <em>«красный»</em>.</p>
+    </div>
+    <div style="width: 50%;">
+        <figure style="text-align: center;"> 
+            <img src="img/013_01.jpeg" alt="">
+            <figcaption>Перец чили</figcaption>
+        </figure>
+    </div>
+  </div>
+
+<div style="border: 1px  solid; width: 250px;">
+    <div>
+        <h2>Содержание</h2>
+        <hr style="border: 0.5px  solid;">
+    </div>
+    <p><a href="https://ru.wikipedia.org/wiki/Острый_перец"><strong>Ботаническое описание</strong></a></p>
+    <p><a href="https://ru.wikipedia.org/wiki/Острый_перец">История</a></p>
+    <ul>
+        <li  style="list-style-type: none;"><a href="https://ru.wikipedia.org/wiki/Острый_перец">Применение у ацтеков</a></li>
+    </ul>
+    <p><strong><a href="https://ru.wikipedia.org/wiki/Острый_перец">Свойства и применение</a></strong></p>
+    <ul  style="list-style-type: none;">
+        <li><a href="https://ru.wikipedia.org/wiki/Острый_перец">Меры предосторожности</a></li>
+        <li><a href="https://ru.wikipedia.org/wiki/Острый_перец">Способы приготовления</a></li>
+        <li><a href="https://ru.wikipedia.org/wiki/Острый_перец">Использование свежего перца чили</a></li>
+        <li><a href="https://ru.wikipedia.org/wiki/Острый_перец">Заморозка перца чили</a></li>
+        <li><a href="https://ru.wikipedia.org/wiki/Острый_перец">Сушёные перцы чили</a></li>
+    </ul>
+    <p><a href="https://ru.wikipedia.org/wiki/Острый_перец">Выращивание</a><strong></strong></p>
+    <p><a href="https://ru.wikipedia.org/wiki/Острый_перец"><strong>Применение в медицине</strong></a></p>
+    <p><a href="https://ru.wikipedia.org/wiki/Острый_перец"><strong>Примечания</strong></a></p>
+    <p><a href="https://ru.wikipedia.org/wiki/Острый_перец"><strong>Литература</strong></a></p>
+    <p><a href="https://ru.wikipedia.org/wiki/Острый_перец"><strong>Ссылки</strong></a></p>
+
+</div>
+
+<div>
+    <h2>Ботаническое описание</h2>
+    <hr>
+    <p>Растение высотой до 60 см с ветвистыми стеблями, эллиптическими листьями, крупными белыми или сероватыми с фиолетовыми пятнами цветками.</p>
+    <p><a href="https://ru.wikipedia.org/wiki/Острый_перец">Плоды</a> представляют собой ягоды с малосочным <a href="https://ru.wikipedia.org/wiki/Острый_перец">околоплодником</a> от шаровидной до
+        хоботовидной формы, от жёлтого и красного до чёрно-оливкового цвета.</p>
+</div>
+
+<div style="width: 100%; height: 30px; text-align: right">  
+    <span style="float: left">1 of 6</span>  
+    2/1/24, 10:44 AM
+</div>
+
+       <!--СТРАНИЦА-2-->
+
+    <div style="width: 100%; height: 30px; text-align: right">  
+        <span style="float: left">Острый перец — Википедия</span>  
+        <a href="https://ru.wikipedia.org/wiki/Острый_перец">https://ru.wikipedia.org/wiki/Острый_перец</a>
+    </div>
+
+    <div>
+        <h2>История</h2>
+        <hr>
+    </div>
+
+    <div>Родина этого растения — <a href="https://ru.wikipedia.org/wiki/Острый_перец">тропическая</a> <a href="https://ru.wikipedia.org/wiki/Острый_перец">Америка</a> <a href="https://ru.wikipedia.org/wiki/Острый_перец"><sup>[1].</sup> </a> Как свидетельствуют находки в <a href="https://ru.wikipedia.org/wiki/Острый_перец">перуанских</a> 
+        погребениях, его культивировали здесь ещё задолго до прибытия европейцев в Америку. Испанцы
+        и португальцы, которые во время своих мореплаваний открыли эти специи для европейцев,
+        назвали его «индианским». В настоящее время острый перец выращивают в большинстве стран,
+        расположенных в тропиках, но больше всего — в <a href="https://ru.wikipedia.org/wiki/Острый_перец">Индии</a> и <a href="https://ru.wikipedia.org/wiki/Острый_перец">Таиланде</a>.</div>
+
+        <h2>Применение у ацтеков</h2>
+
+    <p>Ацтекской богиней этого растения была Каушолотль, или <a href="">Чантико</a><sup><a href="https://ru.wikipedia.org/wiki/Острый_перец">[2]</a>.</sup></p>
+
+    <p>В произведении «<a href="https://ru.wikipedia.org/wiki/Острый_перец">Общая история дел Новой Испании</a>» (1547—1577) <a href="https://ru.wikipedia.org/wiki/Острый_перец">Бернардино де Саагун</a>,
+        опираясь на сведения <a href="https://ru.wikipedia.org/wiki/Острый_перец">ацтеков</a> о свойствах растений, привёл различные сведения о красном перце
+        чили <sup><a href="https://ru.wikipedia.org/wiki/Острый_перец">[3]</sup></a>. Они ели его на завтрак, обед и ужин.</p>
+
+        <div>
+            <h2>Свойства и применение</h2>
+            <hr>
+        </div>
+
+            <div style="display: flex; flex-direction: row;">
+                <div style="width: 50%;">
+                    <p>Красный перец обладает сильным пряным <a href="https://ru.wikipedia.org/wiki/Острый_перец">ароматом</a> и <a href="https://ru.wikipedia.org/wiki/Острый_перец">вкусом</a>
+                        от пряного до острого и даже очень жгучего (обусловлен
+                        содержанием фенольного соединения <a href="https://ru.wikipedia.org/wiki/Острый_перец">капсаицина</a>
+                        (ванилиламид <a href="https://ru.wikipedia.org/wiki/Острый_перец">дециленовой кислоты</a>), которого нет в сладком
+                        <a href="https://ru.wikipedia.org/wiki/Острый_перец">болгарском перце</a>). Капсаицин содержится в семенах,
+                        прожилках и кожице плода.</p>
+
+                    <p>Красный перец содержит большое количество <a href="https://ru.wikipedia.org/wiki/Острый_перец">витаминов</a> <a href="https://ru.wikipedia.org/wiki/Острый_перец">С</a> и
+                        <a href="https://ru.wikipedia.org/wiki/Острый_перец">А</a>. Зелёный перец (неспелый красный перец) содержит
+                        значительно меньше этих витаминов. Кроме того, перец
+                        является хорошим источником <a href="">витаминов группы B</a> и, в
+                        частности, <a href="https://ru.wikipedia.org/wiki/Острый_перец">витамина B6</a>. Красный перец богат также <a href="https://ru.wikipedia.org/wiki/Острый_перец">калием</a>,
+                        <a href="https://ru.wikipedia.org/wiki/Острый_перец">магнием</a> и <a href="https://ru.wikipedia.org/wiki/Острый_перец">железом</a>. Кроме капсаицина, в плодах найдены
+                        1,5 % <a href="https://ru.wikipedia.org/wiki/Острый_перец">эфирного масла</a>, <a href="https://ru.wikipedia.org/wiki/Острый_перец">жирное масло</a><sup><a href="https://ru.wikipedia.org/wiki/Острый_перец">[4].</a></sup></p>
+                </div>
+                <div style="width: 50%;">
+                    <figure> 
+                        <img src="img/013_02.jpeg" alt="">
+                        <figcaption>Торговля красным перцем <br>
+                            вразвес на улицах города <br>
+                            <a href="https://ru.wikipedia.org/wiki/Острый_перец">Ухань</a> (<a href="https://ru.wikipedia.org/wiki/Острый_перец">Китай</a>)</figcaption>
+                    </figure>
+                </div>
+              </div>
+
+    <h2>Меры предосторожности</h2>
+
+    <p>Некоторые разновидности острого красного перца настолько жгучи, что одного прикосновения к
+        ним достаточно, чтобы вызвать раздражение кожи. При их готовке рекомендуется использовать
+        резиновые перчатки и ни в коем случае не касаться области глаз. Потом необходимо тщательно
+        вымыть руки и посуду</p>
+
+    <p>Если на коже появилось раздражение от сока перца чили, то пострадавший участок необходимо
+        промыть под холодной водой и смазать растительным маслом.</p>
+
+    <p>Если вы нечаянно раскусили слишком острый перец чили, то не стоит запивать его водой — это
+        не поможет. Чтобы погасить жжение, следует выпить молока, съесть несколько ложек йогурта или
+        «перебить» остроту чем-то кислым (<a href="https://ru.wikipedia.org/wiki/Острый_перец">лимон</a>, <a href="https://ru.wikipedia.org/wiki/Острый_перец">лайм</a> и пр.).</p>
+
+    <h2>Способы приготовления</h2>
+
+    <div style="width: 100%; height: 30px; text-align: right">  
+        <span style="float: left">2 of 6</span>  
+        2/1/24, 10:44 AM
+    </div>
+
+        <!--СТРАНИЦА-3-->
+
+    <div style="width: 100%; height: 30px; text-align: right">  
+        <span style="float: left">Острый перец — Википедия</span>  
+        <a href="https://ru.wikipedia.org/wiki/Острый_перец">https://ru.wikipedia.org/wiki/Острый_перец</a>
+    </div>
+
+    <p>Красный перец очень часто используют в наборах пряностей, в сочетании с <a href="https://ru.wikipedia.org/wiki/Острый_перец">чесноком</a>,
+        <a href="https://ru.wikipedia.org/wiki/Острый_перец">кориандром</a>, <a href="https://ru.wikipedia.org/wiki/Острый_перец">базиликом</a>, <a href="https://ru.wikipedia.org/wiki/Острый_перец">чабером</a>, порошком <a href="https://ru.wikipedia.org/wiki/Острый_перец">лаврового листа</a> и др.</p>
+
+    <p>На вкус специи влияет способ обработки: перцы чили используют как в свежем виде, так и в
+        сушёном.</p>
+    
+    <p>Перец также применяют свежим в стручках (главным образом в овощных блюдах и соленьях) или
+        сухом виде (как в стручках, так и молотым). Молотый перец добавляют в <a href="https://ru.wikipedia.org/wiki/Острый_перец">соусы</a>, в заправку для
+        салатов, в <a href="https://ru.wikipedia.org/wiki/Острый_перец">кефиры</a>, <a href="https://ru.wikipedia.org/wiki/Острый_перец">простокваши</a>, <a href="https://ru.wikipedia.org/wiki/Острый_перец">мацони</a>, им посыпают различные блюда, его добавляют в <a href="https://ru.wikipedia.org/wiki/Острый_перец">бульон</a>,
+        тушёное мясо, <a href="https://ru.wikipedia.org/wiki/Острый_перец">маринады</a>. Целый перец кладут в <a href="https://ru.wikipedia.org/wiki/Острый_перец">борщи</a>, супы (во время варки, а не в готовое
+        блюдо).</p>
+
+    <h3>Использование свежего перца чили</h3>
+
+    <p>Семена и прожилки — это самая острая часть перца, поэтому если есть необходимость снизить
+        остроту блюда, то их удаляют.</p>
+
+    <p>Если кожица перцев слишком толстая, то её тоже желательно убрать. Маленькие плоды
+        обжаривают на предварительно разогретой сковородке, переворачивая их, пока они не потемнеют
+        и не размякнут.</p>
+
+    <p>Также перцы можно опалить на газовой конфорке или запечь на сильном огне в духовке. Когда
+        перцы почернеют, их кладут в пластиковый пакет или миску, закрытую пищевой плёнкой, и
+        оставляют на 15 минут. После этого кожица легко отходит, и её легко можно снять руками</p>
+
+    <h3>Заморозка перца чили</h3>
+
+    <p>Обжаренные перцы чили можно замораживать. При этом снимать кожицу необязательно — она
+        сама отходит во время разморозки.</p>
+
+    <p>Чтобы заморозить свежие перцы чили, их опускают в кипящую воду на 3 минуты, откидывают на
+        дуршлаг, остужают и, поместив в пластиковый пакет, отправляют в морозилку.</p>
+
+    <h3>Сушёные перцы чили</h3>
+
+    <div style="display: flex; flex-direction: row;">
+        <div style="width: 50%;">
+            <p>При сушке стручки приобретают более густые оттенки, от
+                тёмно- до оранжево-красного. Обычно перец сушат на
+                солнце, отчего плоды сморщиваются; затем их освобождают
+                от чашечки и мелют. Так получают, например, <a href="https://ru.wikipedia.org/wiki/Острый_перец">кайенский
+                перец</a>, названный по имени города <a href="https://ru.wikipedia.org/wiki/Острый_перец">Кайенна</a>,
+                административного центра <a href="https://ru.wikipedia.org/wiki/Острый_перец">Французской Гвианы</a> (владение
+                Франции в <a href="https://ru.wikipedia.org/wiki/Острый_перец">Южной Америке</a>). Красным (кайенским) перцем
+                кормят краснофакторных канареек для улучшения окраса.</p>
+        </div>
+        <div style="width: 50%;">
+            <figure> 
+                <img src="img/013_03.jpeg" alt="">
+                <figcaption>Сушка красного перца под
+                    солнцем, Мьянма</figcaption>
+            </figure>
+        </div>
+      </div>
+
+    <p>Также стручки перца можно подвесить в сухом месте и
+        сохранять подвяленными всю зиму.</p>
+
+    <p>Большие сушёные перцы чили часто используются в <a href="https://ru.wikipedia.org/wiki/Острый_перец">мексиканской кухне</a>   — из них готовят
+        знаменитые соусы. Перед этим высушенные плоды поджаривают для усиления вкуса и
+        вымачивают в воде, а потом из этого настоя делают пюреобразную пасту.</p>
+
+    <p>Перед обжаркой и вымачиванием необходимо удалить из сушёного перца семена и светлые</p>
+
+    <div style="width: 100%; height: 30px; text-align: right">  
+        <span style="float: left">3 of 6</span>  
+        2/1/24, 10:44 AM
+    </div>
+
+        <!--СТРАНИЦА-4-->
+
+    <div style="width: 100%; height: 30px; text-align: right">  
+        <span style="float: left">Острый перец — Википедия</span>  
+        https://ru.wikipedia.org/wiki/Острый_перец
+    </div>
+
+    <div style="display: flex; flex-direction: row;">
+        <div style="width: 50%;">
+            <p>прожилки. Обжаривают перцы чили лишь слегка (1-2 минуты
+                на предварительно разогретой сковороде или 2-3 минуты в
+                духовке, раскалённой до 250 C/500 °F), иначе они становятся
+                горькими. После этого их можно сразу смолоть в соус или же
+                отправить вымачиваться.</p>
+            <p>Вымачивают сухие перцы чили так: их разламывают на части,
+                удаляют семена и прожилки и заливают кипятком на 15
+                минут (большие перцы иногда приходится вымачивать
+                дольше). После этого размягчённые перцы пропускают сквозь
+                сито.</p>
+            <p>Для некоторых рецептов можно просто смолоть сушёный
+                перец чили в электрической мельнице или кофемолке.</p>
+        </div>
+        <div style="width: 50%;">
+            <figure> 
+                <img src="img/013_04.jpeg" alt="">
+                <figcaption>Высушеный красный перец
+                    (паприка), Мьянма</figcaption>
+            </figure>
+        </div>
+      </div>
+
+    <h2>Выращивание</h2>
+    <hr>
+
+    <p>Красный перец можно выращивать и в домашних условиях в цветочных горшках. Необходимое
+        условие — регулярный полив с периодической подкормкой цветочной смесью.</p>
+
+    <h2>Применение в медицине</h2>
+    <hr>
+
+    <p>В медицине применяют только жгучие сорта перца кустарникового и перца однолетнего под
+        названием плоды красного или стручкового перца (<a href="https://ru.wikipedia.org/wiki/Острый_перец">лат.</a> Fructus Capsici)
+        <sup><a href="https://ru.wikipedia.org/wiki/Острый_перец">[5]</a></sup>. <a href="https://ru.wikipedia.org/wiki/Острый_перец">Настойку</a> из плодов
+        применяют для возбуждения аппетита и улучшения пищеварения. В качестве местного
+        раздражающего средства применяют сложноперцовый <a href="https://ru.wikipedia.org/wiki/Острый_перец">линимент</a> и липкий <a href="https://ru.wikipedia.org/wiki/Острый_перец">перцовый пластырь</a>.</p>
+
+    <p>Употребляют[<a href="https://ru.wikipedia.org/wiki/Острый_перец">кто?</a>] красный перец при шоках всех видов, при сердечных приступах, при
+        обморочных и коллаптоидных состояниях.</p>
+
+    <p>При недостаточном кровообращении в нижних конечностях делают горячие ванны для ног с
+        перцовым раствором.</p>
+
+    <p>Исследование, опубликованное в издании «Cancer Research» в 2006 году, показало эффективность
+        красного перца в борьбе с раковыми клетками <sup><a href="https://ru.wikipedia.org/wiki/Острый_перец">[6]</a></sup>.</p>
+
+    <p><a href="https://ru.wikipedia.org/wiki/Острый_перец">Капсаициновая</a> вытяжка из перца чили применяется в терапии <a href="https://ru.wikipedia.org/wiki/Острый_перец">мигрени</a><sup><a href="https://ru.wikipedia.org/wiki/Острый_перец">[7][8]</a></sup>.</p>
+
+    <p>Исследование, проведённое учёными из <a href="https://ru.wikipedia.org/wiki/Острый_перец">Университета Инсубрии</a> в <a href="https://ru.wikipedia.org/wiki/Острый_перец">Варезе</a>, показало, что у людей,
+        регулярно употребляющих перец чили (4 раза в неделю или более), риск смерти от <a href="https://ru.wikipedia.org/wiki/Острый_перец">сердечного
+        приступа</a> был снижен на 40%, а риск <a href="https://ru.wikipedia.org/wiki/Острый_перец">цереброваскулярной</a> смерти был снижен более чем
+        вдвое <sup><a href="https://ru.wikipedia.org/wiki/Острый_перец">[9][10].</a></sup></p>
+
+    <h2>Примечания</h2>
+    <hr>
+    
+    <ol>
+        <li style="list-style-type: none;"><a href="https://ru.wikipedia.org/wiki/Острый_перец">1. Chile Pepper History & Chile Pepper Glossary (http://www.thenibble.com/reviews/
+        main/salts/scoville.asp)</a>. www.thenibble.com. Дата обращения: 23 октября
+        2013. <a href="https://ru.wikipedia.org/wiki/Острый_перец">Архивировано (https://web.archive.org/web/20101205023259/http://www.
+        thenibble.com/reviews/Main/salts/scoville.asp)</a> 5 декабря 2010 года. </li>
+    </ol>
+
+    <div style="width: 100%; height: 30px; text-align: right">  
+        <span style="float: left">4 of 6</span>  
+        2/1/24, 10:44 AM
+    </div>
+    
+        <!--СТРАНИЦА-5-->
+    
+    <div style="width: 100%; height: 30px; text-align: right">  
+        <span style="float: left">Острый перец — Википедия</span>  
+        <a href="https://ru.wikipedia.org/wiki/Острый_перец">https://ru.wikipedia.org/wiki/Острый_перец</a>
+    </div>
+
+    <ol>
+        <li style="list-style-type: none;">2. <em>Пресвитер Хуан; Антонио Перес; фрай Педро де лос Риос (глоссы).</em> <a href="http://kuprienko.info/codice-mexicano-385-telleriano-re
+        mensis-con-codice-rios-codex-azteca/">Кодекс
+        Теллериано-Ременсис (http://kuprienko.info/codice-mexicano-385-telleriano-re
+        mensis-con-codice-rios-codex-azteca/)</a>. www.kuprienko.info. — Киев, 2010. Пер.
+        с исп. А. Скромницкого, В. Талаха. Дата обращения: 16 августа 2010.
+        <a href="https://archive.today/20121205013024/http://kuprienko.info/codi
+        ce-mexicano-385-telleriano-remensis-con-codice-rios-codex-azteca/">Архивировано (https://archive.today/20121205013024/http://kuprienko.info/codi
+        ce-mexicano-385-telleriano-remensis-con-codice-rios-codex-azteca/)</a> 5 декабря
+        2012 года. </li> <br>
+        <li style="list-style-type: none;">3. <a href="https://ru.wikipedia.org/wiki/Острый_перец">Саагун, 2013</a>.</li> <br>
+            <li style="list-style-type: none;">4. Блинова К. Ф. и др. <a href="http://herba.msu.ru/shipunov/school/books/botaniko-farmakognost_slo
+        var1990.djvu">Ботанико-фармакогностический словарь : Справ.
+        пособие (http://herba.msu.ru/shipunov/school/books/botaniko-farmakognost_slo
+        var1990.djvu)</a> / Под ред. К. Ф. Блиновой, Г. П. Яковлева. — <a href="https://web.archive.or
+        g/web/20140420180900/">М.</a>: Высш. шк.,
+        1990. — С. 221—222. — <a href="https://ru.wikipedia.org/wiki/Острый_перец">ISBN 5-06-000085-0. Архивировано (https://web.archive.or
+        g/web/20140420180900/http://herba.msu.ru/shipunov/school/books/botaniko-farmakogno
+        st_slovar1990.djvu)</a> 20 апреля 2014 года. </li><br>
+        <li style="list-style-type: none;">5. <a href="https://ru.wikipedia.org/wiki/Острый_перец">Cancer nursing: principles and practice – Google Books (http://books.google.ca/b
+        ooks?id=HXsl_PhXG0kC&pg=PA682&dq=capsaicin+cancer+oncologist)</a>
+        (англ.). — Books.google.ca, 2005. — <a href="https://ru.wikipedia.org/wiki/Острый_перец">ISBN 978-0-7637-4720-6.</a></li> <br>
+        <li style="list-style-type: none;">6. <a href="https://ru.wikipedia.org/wiki/Острый_перец">Красный перец как лекарство против рака — chilipepper.com.ua (http://www.
+        chilipepper.com.ua/krasnyj-perets-kak-lekarstvo-protiv-raka/poleznye-svojstva-zh
+        guchego-pertsa/ostryj-perets-lekarstvo-protiv-raka)</a>. Дата обращения: 11 июля
+        2016. <a href="https://ru.wikipedia.org/wiki/Острый_перец"> Архивировано (https://web.archive.org/web/20160804220950/http://www.
+        chilipepper.com.ua/krasnyj-perets-kak-lekarstvo-protiv-raka/poleznye-svojstva-zh
+        guchego-pertsa/ostryj-perets-lekarstvo-protiv-raka)</a> 4 августа 2016 года.</li> <br>
+        <li style="list-style-type: none;">7. <a href="https://ru.wikipedia.org/wiki/Острый_перец"> Spicy foods (chili peppers, ginger) in treatment of migraine headaches by Amos
+        Gelbard (https://www.alliedacademies.org/articles/spicy-foods-chili-peppers-ging
+        er-in-treatment-of-migraine-headaches-byamos-gelbard-6300.html). </a>Дата
+        обращения: 23 декабря 2019. <a href="https://ru.wikipedia.org/wiki/Острый_перец">Архивировано (https://web.archive.org/web/201
+        91223215309/https://www.alliedacademies.org/articles/spicy-foods-chili-peppersginger-in-treatment-of-migraine-headaches-byamos-gelbard-6300.html)</a> 23
+        декабря 2019 года. </li><br>
+        <li style="list-style-type: none;">8. <a href="https://headaches.org/2014/05/15/chili-pepper-plant-extract-brings-re
+        lief-to-headache-sufferers/">Источник (https://headaches.org/2014/05/15/chili-pepper-plant-extract-brings-re
+        lief-to-headache-sufferers/).</a> Дата обращения: 23 декабря 2019. <a href="https://web.archive.org/web/20200815141224/https://headaches.org/2014/05/1
+        5/chili-pepper-plant-extract-brings-relief-to-headache-sufferers/">Архивировано
+        (https://web.archive.org/web/20200815141224/https://headaches.org/2014/05/1
+        5/chili-pepper-plant-extract-brings-relief-to-headache-sufferers/)</a> 15 августа
+        2020 года.</li> <br>
+        <li style="list-style-type: none;">9. <a href="https://medicalinsider.ru/news/upotreblenie-perca-chili-snizhaet-r
+        isk-smerti-ot-serdechnogo-pristupa/">Употребление перца чили снижает риск смерти от сердечного приступа -
+        Medical Insider (https://medicalinsider.ru/news/upotreblenie-perca-chili-snizhaet-r
+        isk-smerti-ot-serdechnogo-pristupa/)</a>. Дата обращения: 23 декабря 2019.
+        <a href="https://web.archive.org/web/20191223215308/https://medicalins
+        ider.ru/news/upotreblenie-perca-chili-snizhaet-risk-smerti-ot-serdechnogo-pristup
+        a/">Архивировано (https://web.archive.org/web/20191223215308/https://medicalins
+        ider.ru/news/upotreblenie-perca-chili-snizhaet-risk-smerti-ot-serdechnogo-pristup
+        a/)</a> 23 декабря 2019 года. </li><br>
+        <li style="list-style-type: none;">10. <a href="https://d
+        x.doi.org/10.1016/j.jacc.2019.09.068">Chili Pepper Consumption and Mortality in Italian Adults - ScienceDirect (https://d
+        x.doi.org/10.1016/j.jacc.2019.09.068)</a></li>
+        
+        </ol>
+
+        <h2>Литература</h2>
+        <hr>
+    
+        <ol>
+            <li style="list-style-type: none;">▪ <em><a href="https://ru.wikipedia.org/wiki/Острый_перец">Бернардино де Саагун</a>, <a href="https://ru.wikipedia.org/wiki/Острый_перец">Куприенко С. А.</a></em> Общая история о делах Новой
+                Испании. Книги X-XI: Познания астеков в медицине и ботанике / Ред. и пер.
+                С. А. Куприенко.. — К.: Видавець Купрієнко С. А., 2013. — 218 с. —
+                (Месоамерика. Источники. История. Человек). — <a href="https://ru.wikipedia.org/wiki/Острый_перец">ISBN 978-617-7085-07-1</a>.</li>
+        </ol>        
+        
+        <div style="width: 100%; height: 30px; text-align: right">  
+            <span style="float: left">5 of 6</span>  
+            2/1/24, 10:44 AM
+        </div>
+
+        <!--СТРАНИЦА-5-->
+    
+        <div style="width: 100%; height: 30px; text-align: right">  
+            <span style="float: left">Острый перец — Википедия</span>  
+            <a href="https://ru.wikipedia.org/wiki/Острый_перец">https://ru.wikipedia.org/wiki/Острый_перец</a>
+        </div>
+
+        <ol>
+            <li style="list-style-type: none;">▪ <em><a href="https://ru.wikipedia.org/wiki/Острый_перец">Пресвитер Хуан; Антонио Перес; фрай Педро де лос Риос (глоссы).</a></em>
+                Мексиканская рукопись 385 «Кодекс Теллериано-Ременсис» (с
+                дополнениями из Кодекса Риос) / Ред. и пер. <a href="https://ru.wikipedia.org/wiki/Острый_перец">С. А. Куприенко</a>, В. Н. Талах. —
+                К.: Видавець Купрієнко С. А., 2013. — 317 с. — <a href="https://ru.wikipedia.org/wiki/Острый_перец">ISBN 978-617-7085-06-4</a>.</li>
+        </ol>
+
+        <h2>Ссылки</h2>
+        <hr>
+
+        <ol>
+            <li style="list-style-type: none;">▪ <img src="/img/Commons-logo.svg.webp" alt=""> На <a href="https://ru.wikipedia.org/wiki/Острый_перец">Викискладе</a> есть медиафайлы по теме <a href="https://ru.wikipedia.org/wiki/Острый_перец">Острый перец</a></li>
+            <li style="list-style-type: none;">▪ Некоторые полезные свойства <a href="https://ru.wikipedia.org/wiki/Острый_перец">острого перца (http://www.chilipepper.com.ua/
+                poleznye-svojstva/uncategorised/poleznye-svojstva)</a></li>
+        </ol>
+
+        <hr>
+
+        <p>Источник — <a href="https://ru.wikipedia.org/w/index.php?title=Острый_перец&oldid=135506867">https://ru.wikipedia.org/w/index.php?title=Острый_перец&oldid=135506867</a></p>
+        <br>
+
+        <hr>
+
+        <p><strong>Эта страница в последний раз была отредактирована 11 января 2024 в 17:23.</strong></p>
+
+        <p>Текст доступен по лицензии Creative Commons «С указанием авторства — С сохранением
+            условий» (CC BY-SA); в отдельных случаях могут действовать дополнительные условия.
+            Wikipedia® — зарегистрированный товарный знак некоммерческой организации Фонд
+            Викимедиа (Wikimedia Foundation, Inc.)</p>
+
+  </body>
+</html>
